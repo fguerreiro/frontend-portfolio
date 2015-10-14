@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Loja Virtual</title>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="css/bootstrap.min.css" />
+	<link rel="stylesheet" href="css/animate.css" />
+	<meta name="viewport" content="width=device-width" />
+	<style>
+		.navbar-header button {
+			color: #fff;
+		}
+		
+		.fullscreen {
+			width: 100%;
+		}
+		
+		main {
+			padding-top: 50px;
+		}
+		
+		footer {
+			background: #333;
+			color: #fff;
+			text-align: center;
+			padding: 20px 0;
+		}
+		
+		.tab-pane {
+			padding: 10px 5px;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+			<div class="navbar-header">
+				<a href="#home" class="navbar-brand">Guerreiro Tech</a>
+				<button type="button" data-target=".navbar-collapse" data-toggle="collapse" class="navbar-toggle collapsed navbar-right">
+					Menu
+				</button>
+			</div>
+			<div class="collapse navbar-collapse navbar-right">
+				<ul class="navbar-nav nav">
+					<li><a href="index.html#novidades">New items</a></li>
+					<li><a href="index.html#maisVendidos">Best sellers</a></li>
+					<li>
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+				                Shirts
+				                <span class="caret"> </span>
+				            </a>
+						<ul class="dropdown-menu">
+							<li><a href="index.html">Men</a></li>
+							<li><a href="index.html">Women</a></li>
+							<li><a href="index.html">Kids</a></li>
+						</ul>
+						<ul>
+							<li>
+
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+	<main>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-4">
+					<img src="produto.png" class="img-responsive img-thumbnail">
+				</div>
+				<div class="col-sm-8">
+					<div class="text-center">
+						<h1>Beautiful blue shirt </h1>
+						<h3>R$ 129,00</h3>
+						<a href="#" class="btn btn-primary btn-lg">Purchase</a>
+					</div>
+
+					<div class="row">
+						<ul class="nav nav-tabs">
+							<li class="nav active"><a href="#descricao" data-toggle="tab">Description</a></li>
+							<li class="nav"><a href="#informacoes" data-toggle="tab">Technical Specs</a></li>
+						</ul>
+						<div class="tab-content">
+							<div class="tab-pane fade in active" id="descricao">
+								<p>
+									This button-down shirt will be a delight for your skin as it is fashioned using quality cotton. 
+								</p>
+								<p>
+									For a quintessential
+										utilitarian look, club this casual shirt with vintage jeans and leather moccasins.
+								</p>
+							</div>
+
+							<div class="tab-pane fade" id="informacoes">
+								<table class="table table-responsive">
+									<tbody>
+										<tr>
+											<td>
+												Fabric
+											</td>
+											<td>
+												100% Cotton
+											</td>
+										</tr>
+										<tr>
+											<td>
+												Sizes
+											</td>
+											<td>
+												S, M, L, XL
+											</td>
+										</tr>
+										<tr>
+											<td>
+												Made by
+											</td>
+											<td>
+												Guerreiro Tech
+											</td>
+										</tr>
+										<tr>
+											<td>
+												Country of Origin
+											</td>
+											<td>
+												Brazil
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+	<footer class="footer">
+		Fortaleza, CE
+		<br/> (85) 3300-0405
+	</footer>
+</body>
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+</html>

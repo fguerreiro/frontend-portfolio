@@ -1,0 +1,199 @@
+body {
+    font-family: "Crimson Text", serif;
+    background-color: #e8eddf;
+    line-height: 30px;
+    border-radius: 5px;
+}
+
+h1,
+h2 {
+    font-family: "Open Sans Condensed", sans-serif;
+}
+
+h2 {
+	clear: both;
+	margin-bottom: 10px;
+}
+
+main h1,
+aside {
+    background-color: #242423;
+    color: #f5cb5c;
+}
+
+h1 {
+	text-transform: uppercase;
+	clear: both;
+    font-size: 1.48em;
+}
+
+.titulo-principal {
+    text-align: center;
+    padding: 2rem;
+    border-bottom: .5rem solid silver;
+    border-radius: 0px;
+    margin-top: 0px;
+    font-size: 300%;
+}
+
+p {
+    text-align: justify;
+    margin: 20px 0;
+}
+
+blockquote,
+aside,
+footer {
+	padding: 20px;
+}
+
+.citacao-bio{
+    background-color: #D9E5E3;
+    border: .1em solid #C2CCCA;
+    padding: 1em;
+    width: 30ch;
+    box-sizing: border-box;
+    font-size: 85%;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.citacao-esquerda {
+	float: left;
+    margin-right: 2em;
+}
+
+.citacao-direita {
+	float: right;
+    margin: 0.4em 2em;
+}
+
+footer {
+    background-color: #000;
+    color: #F2FFFC;
+    padding: 20px;
+    border-radius: 2px;
+    clear: both;
+    border-radius: 2px;
+}
+
+main a {
+    color: #851944;
+}
+
+.navegacao {
+	padding: 2%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	text-align: right;
+	display: block;
+	height: 105.5em;
+	float: right;
+}
+
+.navegacao .redes-sociais li{
+	display: inline-block;
+}
+
+aside ul {
+	list-style-type:none;
+	padding: 4px;
+}
+
+main div  {
+	width: 720px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 30px 0;
+}
+
+strong {
+    font-weight: bold;
+}
+
+em {
+    font-style: italic;
+}
+
+h2 {
+    font-size: 30px
+;
+    margin-bottom: 120%;
+}
+
+.minha-foto {
+	border: 1px solid #f5cb5c;
+	border-radius: 4px;
+	width: 60%;
+}
+
+.rodape-pagina {
+    background-color: #000;
+    color: #F2FFFC;
+    padding: 20px;
+}
+
+.redes-sociais a {
+   
+    width: 40px;
+    height: 40px;
+    display: block;
+}
+
+.redes-sociais .github {
+	 background-image: url(github.png);
+}
+
+.redes-sociais .twitter {
+	 background-image: url(twitter.png);
+}
+
+.redes-sociais .linkedin {
+	 background-image: url(linkedin.png);
+}
+
+aside {
+	width: 15%;
+	box-sizing: border-box;
+}
+
+main {
+	float: left;
+	width: 85%;
+}
+
+h2.subtitulo-texto {
+    margin-bottom: 7%;
+    margin-top: 8%;
+}
+
+.my-name {
+    font-size:1.7rem;
+}
+
+.navegacao div {
+    font-size: 0.7em;
+    margin-bottom: 2.5em;
+    margin-top: 10em;
+}
+
+#meu-nome-logo {
+    webkit-transition: color 200ms ease;
+    transition: color 200ms ease; 
+}
+
+#menu-navegacao {
+    font-size: large;
+    margin-top: 2em;
+    font-family: "Ubuntu", sans-serif;
+}
+
+
+aside a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.redes-sociais {
+    margin-top: 2em;
+}

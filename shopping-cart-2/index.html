@@ -1,0 +1,163 @@
+<html>
+
+<head>
+	<link rel="stylesheet" type="text/css" href="carrinho.css">
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<meta charset="UTF-8" />
+</head>
+
+<body>
+	<header>
+		<h2>Geral</h2>
+		<a href="#" class="alterna-propaganda">Hide Ads</a>
+		<a href="#" class="alterna-propaganda" id="mostra-propagandas">Show ads</a>		
+	</header>
+
+	<div class="carrinho">
+		<h2>Shopping Cart - Sao Paulo</h2>
+		<table>
+			<thead>
+				<tr>
+					<td></td>
+					<td>Description</td>
+					<td>Quantity</td>
+					<td>Price</td>
+					<td>Total</td>
+					<td></td>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td><img src="imagens/tablet.jpg"></td>
+					<td>Tablet miPad 18</td>
+					<td>1</td>
+					<td>499.99</td>
+					<td class="item-total">499.99</td>
+					<td><a href="" class="remove-item">(remove)</a></td>
+
+				</tr>
+				<tr>
+					<td><img src="imagens/telefone.png"></td>
+					<td>miPhone 18</td>
+					<td>2</td>
+					<td>199.99</td>
+					<td class="item-total">399.98</td>
+					<td><a href="" class="remove-item">(remove)</a></td>
+				</tr>
+				<tr>
+					<td><img src="imagens/sapato.jpg"></td>
+					<td>Shoes</td>
+					<td>1</td>
+					<td>99.99</td>
+					<td class="item-total">99.99</td>
+					<td><a href="" class="remove-item">(remove)</a></td>
+				</tr>
+				<tr>
+					<td><img src="imagens/monitor.jpg"></td>
+					<td>Monitor Sam 21</td>
+					<td>1</td>
+					<td>299.00</td>
+					<td class="item-total">299.00</td>
+					<td><a href="" class="remove-item">(remove)</a></td>
+				</tr>
+				<tr>
+					<td><img src="imagens/teclado.jpg"></td>
+					<td>Keyboard</td>
+					<td>1</td>
+					<td>100.00</td>
+					<td class="item-total">100.00</td>
+					<td><a href="" class="remove-item">(remove)</a></td>
+				</tr>
+				<tr>
+					<td><img src="imagens/mouse.jpg"></td>
+					<td>Wireless mouse</td>
+					<td>1</td>
+					<td>199.00</td>
+					<td class="item-total">199.00</td>
+					<td><a href="#" class="remove-item">(remove)</a></td>
+				</tr>
+
+			</tbody>
+		</table>
+		
+		<div class="text-center">
+			<button type="button" class="undoBtn btn btn-warning btn-lg">Undo</button>
+		</div>
+		
+		<div class="resumo">
+			<tr>
+				<td>
+					Total:
+				</td>
+				<td><span class="valor-total"></span>
+				</td>
+			</tr>
+			<br />
+			<tr>
+				<td>
+					Items quantity:
+				</td>
+				<td><span class="quantidadeItems"></span>
+				</td>
+			</tr>
+
+		</div>
+		
+	</div>
+	
+	<div class="carrinho">
+		<h2>Shipping from Fortaleza</h2>
+		<table>
+			<thead>
+				<tr>
+					<td></td>
+					<td>Description</td>
+					<td>Quantity</td>
+					<td>Price</td>
+					<td>Total</td>
+				</tr>
+			</thead>
+			<tbody>
+
+				<tr>
+					<td><img src="imagens/camiseta.jpg"></td>
+					<td>Shirt</td>
+					<td>1</td>
+					<td>25.00</td>
+					<td class="item-total">25.00</td>
+					<td><a href="" class="remove-item">(remove)</a></td>
+				</tr>
+
+			</tbody>
+		</table>
+		
+		<div class="text-center">
+			<button type="button" class="undoBtn btn btn-warning btn-lg">Undo</button>
+		</div>
+		
+		<div class="resumo">
+			<tr>
+				<td>
+					Total:
+				</td>
+				<td><span class="valor-total"></span>
+				</td>
+			</tr>
+			<br />
+			<tr>
+				<td>
+					Items quantity:
+				</td>
+				<td><span class="quantidadeItems"></span>
+				</td>
+			</tr>
+
+		</div>
+	</div>
+
+	<script src="jquery-2.0.3.min.js"></script>
+	<script src="carrinho.js"></script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>	
+</body>
+
+</html>

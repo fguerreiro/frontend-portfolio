@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Loja Virtual</title>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="css/bootstrap.min.css" />
+	<link rel="stylesheet" href="css/animate.css" />
+	<meta name="viewport" content="width=device-width" />
+	<style>
+		body {
+			font-size: 18px;
+		}
+		.navbar-header button {
+			color: #fff;
+		}
+		
+		.fullscreen {
+			width: 100%;
+		}
+		
+		main {
+			padding-top: 50px;
+		}
+		
+		footer {
+			background: #333;
+			color: #fff;
+			text-align: center;
+			padding: 20px 0;
+		}
+		
+		.tab-pane {
+			padding: 10px 5px;
+		}
+	</style>
+</head>
+
+<body>
+	<header>
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+			<div class="navbar-header">
+				<a href="#home" class="navbar-brand">Caelum</a>
+				<button type="button" data-target=".navbar-collapse" data-toggle="collapse" class="navbar-toggle collapsed navbar-right">
+					Menu
+				</button>
+			</div>
+			<div class="collapse navbar-collapse navbar-right">
+				<ul class="navbar-nav nav">
+					<li><a href="#novidades">Novidades</a></li>
+					<li><a href="#maisVendidos">Mais vendidos</a></li>
+					<li>
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+				                Camisetas
+				                <span class="caret"> </span>
+				            </a>
+						<ul class="dropdown-menu">
+							<li><a href="#">Masculinas</a></li>
+							<li><a href="#">Femininas</a></li>
+							<li><a href="#">Infantil</a></li>
+						</ul>
+						<ul>
+							<li>
+
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+
+		</nav>
+	</header>
+	<main>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-4">
+					<div class="panel panel-default"></div>
+					<div class="panel-heading">
+						<h2 class="panel-title">Sua compra</h2>
+					</div>
+					<div class="panel-body">
+						<img src="img/japan-1.jpg" class="img-responsive img-thumbnail">
+						<dl>
+							<dt>Nome</dt>
+
+							<dd>Camiseta azul</dd>
+							<dt>Tamanho</dt>
+							<dd>G</dd>
+							<dt>Preço</dt>
+							<dd>R$129.00</dd>
+							<dt>Cor</dt>
+							<dd>Azul</dd>
+						</dl>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-8">
+				<fieldset>
+					<legend>Informações do Usuário</legend>
+					<form>
+						<div class="form-group">
+							<label for="#nome">Nome completo</label>
+							<input type="text" class="form-control" id="nome">
+						</div>
+						<div class="form-group">
+							<label for="#cpf">CPF</label>
+							<input type="text" class="form-control" id="cpf">
+						</div>
+						<div class="form-group">
+							<label for="#email">E-mail</label>
+							<div class="input-group">
+								<span class="input-group-addon">
+									@
+								</span>
+								<input type="email" class="form-control" id="email">
+							</div>
+						</div>
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" id="novidades" value="sim" checked="checked" /> Quero receber novidades da loja.
+							</label>
+						</div>
+					</form>
+
+				</fieldset>
+
+				<fieldset>
+					<legend>Pagamento por cartão</legend>
+					<div class="form-group">
+						<label for="#bandeira">Bandeira</label>
+						<select class="form-control" id="bandeira">
+							<option value="visa">Visa</option>
+							<option value="master">Mastercard</option>
+							<option value="amex">AmericanExpress</option>
+						</select>
+					</div>
+					<div class="form-group">
+						<label for="#numero">Número</label>
+						<input type="text" class="form-control" id="numero" />
+					</div>
+					<div class="form-group">
+						<label for="#validade">Validade</label>
+						<input type="month" class="form-control" id="validade" />
+					</div>
+					<div class="form-group">
+						<label for="cvv">CVV</label>
+						<input type="text" maxlength="3" class="form-control" id="cvv" />
+					</div>
+				</fieldset>
+				<button type="submit" class="btn btn-primary">
+					<span class="glyphicon glyphicon-thumbs-up"></span>
+					Confirmar pedido</button>
+
+			</div>
+		</div>
+
+
+	</main>
+	<footer class="footer">
+		Avenida Paulista n1
+		<br/> (11) 2596-1234
+	</footer>
+</body>
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+</html>
